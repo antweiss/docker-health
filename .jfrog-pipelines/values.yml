@@ -9,13 +9,13 @@ namePrefix: intro
 repo:
   # Before creating your Pipeline Source, create an integration for one of the
   # source control providers and put the integration name here.
-  integrationName: myGitIntegration
+  integrationName: github
 
   # this is the full repository path. Usually org/repo or user/project
   # depending on which source control you use.
-  path: "myorgname/myreponame"
+  path: "antweiss/docker-health"
 
   # branchPattern is a regex, so you could listen to all
   # features, for example, with "^feature.*"
-  branchPattern: "^main$"
+  branchPattern: "^master$"
 
